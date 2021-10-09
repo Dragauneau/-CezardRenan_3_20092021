@@ -587,31 +587,38 @@ ul li a {
   }
 }
 
-.starter {
-  -webkit-animation: fadein 3s ease-in-out;
-          animation: fadein 3s ease-in-out;
+.meals:nth-child(2) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+.meals:nth-child(3) {
+  -webkit-animation-delay: 0.50s;
+          animation-delay: 0.50s;
+}
+
+.meals:nth-child(4) {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+.meals {
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-animation: 1s ease-in-out backwards fadein;
+          animation: 1s ease-in-out backwards fadein;
 }
 
 @media screen and (min-width: 1280px) {
-  .starter {
+  .meals {
     width: 400px;
   }
-}
-
-.dish {
-  -webkit-animation: fadein 5s ease-in-out;
-          animation: fadein 5s ease-in-out;
 }
 
 @media screen and (min-width: 1280px) {
   .dish {
     width: 400px;
   }
-}
-
-.dessert {
-  -webkit-animation: fadein 9s ease-in-out;
-          animation: fadein 9s ease-in-out;
 }
 
 @media screen and (min-width: 1280px) {

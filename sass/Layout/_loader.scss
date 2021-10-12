@@ -28,7 +28,7 @@
       left: 45%;
     }
   }
-  .loader__food p {
+  .loader__food span {
     display: inline-block;
     width: 5px;
     height: 20px;
@@ -49,27 +49,27 @@
       left: 50%;
     }
   }
-  .loader__food p:nth-child(1) {
+  .loader__food span:nth-child(1) {
     animation: grow 1s ease-in-out infinite;
   }
-  .loader__food p:nth-child(2) {
+  .loader__food span:nth-child(2) {
     animation: grow 1s ease-in-out 0.15s infinite;
   }
-  .loader__food p:nth-child(3) {
+  .loader__food span:nth-child(3) {
     animation: grow 1s ease-in-out 0.15s infinite;
   }
-  .loader__food p:nth-child(4) {
+  .loader__food span:nth-child(4) {
     animation: grow 1s ease-in-out 0.15s infinite;
   }
-  .loader__food p:nth-child(5) {
+  .loader__food span:nth-child(5) {
     animation: grow 1s ease-in-out 0.15s infinite;
   }
-  .loader__food p:nth-child(6) {
+  .loader__food span:nth-child(6) {
     animation: grow 1s ease-in-out 0.15s infinite;
   }
-  .loader__food p:nth-child(7) {
+  .loader__food span:nth-child(7) {
     animation: grow 1s ease-in-out 0.15s infinite;
   }
-  .loader__food p:nth-child(8) {
+  .loader__food span:nth-child(8) {
     animation: grow 1s ease-in-out 0.15s infinite;
   }

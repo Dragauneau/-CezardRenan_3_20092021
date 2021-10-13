@@ -9,6 +9,14 @@
     justify-content: space-around;
   }
 }
+.meals 
+{
+  transform-origin: top;
+  animation: 1s ease-in-out backwards fill;
+  @include desktop {
+    width: 400px;
+  }
+}
 .meals:nth-child(2) 
 {
   animation-delay: 0.25s;
@@ -21,15 +29,10 @@
 {
   animation-delay: 0.75s;
 }
-.meals 
+.meals:nth-child(5) 
 {
-  transform-origin: top;
-  animation: 1s ease-in-out backwards fill;
-  @include desktop {
-    width: 400px;
-  }
+  animation-delay: 1s;
 }
-
 .dish 
 {
   @include desktop {

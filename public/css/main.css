@@ -534,6 +534,19 @@ ul li a {
   }
 }
 
+.meals {
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-animation: 1s ease-in-out backwards fill;
+          animation: 1s ease-in-out backwards fill;
+}
+
+@media screen and (min-width: 1280px) {
+  .meals {
+    width: 400px;
+  }
+}
+
 .meals:nth-child(2) {
   -webkit-animation-delay: 0.25s;
           animation-delay: 0.25s;
@@ -549,17 +562,9 @@ ul li a {
           animation-delay: 0.75s;
 }
 
-.meals {
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-animation: 1s ease-in-out backwards fill;
-          animation: 1s ease-in-out backwards fill;
-}
-
-@media screen and (min-width: 1280px) {
-  .meals {
-    width: 400px;
-  }
+.meals:nth-child(5) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 @media screen and (min-width: 1280px) {

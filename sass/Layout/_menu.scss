@@ -24,7 +24,7 @@
 .meals 
 {
   transform-origin: top;
-  animation: 1s ease-in-out backwards fadein;
+  animation: 1s ease-in-out backwards fill;
   @include desktop {
     width: 400px;
   }

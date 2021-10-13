@@ -8,7 +8,7 @@
   },
   "author": "Dragauneau",
   "license": "ISC",
-"dependencies": {
+"devDependencies": {
   "sass": "^1.32.5"
 }
 }
